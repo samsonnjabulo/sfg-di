@@ -2,7 +2,7 @@ package za.co.fnb.nav.is.sfgdi.controllers;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import za.co.fnb.nav.is.sfgdi.services.ConstructorGreetingServicesImpl;
+import za.co.fnb.nav.is.sfgdi.services.GreetingServiceImpl;
 
 class PropertyInjectedControllerTest {
 
@@ -11,7 +11,7 @@ class PropertyInjectedControllerTest {
     @BeforeEach
     void setUp() {
         controller = new PropertyInjectedController();
-        controller.constructorGreetingServices = new ConstructorGreetingServicesImpl();
+        controller.constructorGreetingServices = new GreetingServiceImpl();
     }
 
     @Test

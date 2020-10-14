@@ -3,10 +3,10 @@ package za.co.fnb.nav.is.sfgdi.services;
 import org.springframework.stereotype.Service;
 
 @Service
-public class PropertyInjectedGreetingServicesImpl implements ConstructorGreetingServices {
+public class GreetingServiceImpl implements GreetingService {
 
     @Override
     public String sayGreetings(){
-        return "Hello world from Property Injected Greetings";
+        return "Hello world from Constructor Injected Greetings";
     }
 }

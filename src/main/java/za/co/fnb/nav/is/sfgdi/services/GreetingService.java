@@ -1,5 +1,6 @@
 package za.co.fnb.nav.is.sfgdi.services;
 
-public interface ConstructorGreetingServices {
+public interface GreetingService {
     String sayGreetings();
+
 }
